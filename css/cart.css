@@ -1,0 +1,80 @@
+			*{
+				margin-top: -1px;
+			}
+			.position{
+				margin-left:70px;
+			}
+			.followus{
+                margin left: 480px;
+                flex:4;
+                align-items: center;
+              }
+            .followus img{
+              width: 40px;
+              margin-left:20px;
+              cursor: pointer;
+            }
+            .navbar{
+              width: 95%;
+              display:flex;
+              align-items: center;
+              margin:65px auto;
+              margin-top: 2px;
+            }
+            .logo{
+            flex-basis: 15%;
+            }
+            .logo img{
+            width:120px;
+            cursor: pointer;
+            }
+            .menu-icons{
+              display: flex;
+              margin-top: -2px;
+              margin-left:800px;
+              flex:4;
+              align-items: center;
+            }
+            .menu-icons img{
+              width: 40px;
+              margin-left:100px;
+              cursor: pointer;
+            }
+            .slidemenu{
+				  position: fixed;
+				  top:0px;
+				  right: 0px;
+				  height: 100%;
+				  width: 0px;
+				  background-color: #222;
+				  z-index: 1;
+				  padding-top: 100px;
+				  overflow-x: hidden; 
+				  transition: all.6s;
+				}
+
+			#mainbox{
+			  color:black;
+			  margin-left:80px;
+			  font-size: 24px;
+			  cursor:pointer;
+			  transition: all.6s;
+			  display: inline block;
+			}
+			.slidemenu a{
+			  padding: 8px 8px 8px 64px;
+			  text-decoration: none;
+			  font size: 20px;
+			  color: #999;
+			  display: block;
+			}
+			.slidemenu a:hover{
+			  color:white;
+			}
+			.slidemenu .closebtn{
+			  position :absolute;
+			  top:0px;
+			  left: -15px;
+			  font-size: 36px;
+			  margin-right: 62px;
+			}
